@@ -113,6 +113,48 @@
   color: #333;
 }
 
+  .team-card {
+background: #fff;
+padding: 25px 20px;
+border-radius: 12px;
+box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+transition: all 0.3s ease;
+}
+
+
+.team-card:hover {
+transform: translateY(-8px);
+box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+}
+
+
+.team-image-wrapper {
+width: 150px;
+height: 150px;
+margin: 0 auto 15px;
+border-radius: 12px;
+overflow: hidden;
+}
+
+
+.team-image-wrapper img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+.team-card h4 {
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 5px;
+}
+
+
+.team-card p {
+font-size: 14px;
+color: #6c757d;
+}
   </style>
 
 </head>
@@ -123,8 +165,8 @@
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- <img src="#" alt=""> -->
-        <h1 class="sitename">MGR Synergy LTD</h1>
+        <img src="assets/img/logo.png" alt="">
+        <!-- <h1 class="sitename">MGR Synergy LTD</h1> -->
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -188,10 +230,10 @@
           <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
             <div class="image-section">
               <div class="primary-image">
-                <img src="assets/img/msr-002.jpeg" alt="Corporate office environment" class="img-fluid">
+                <img src="assets/img/msr-004.jpeg" alt="Corporate office environment" class="img-fluid">
               </div>
               <div class="image-grid">
-                <img src="assets/img/msr-001.jpeg" alt="Professional workspace" class="img-fluid grid-img">
+                <img src="assets/img/msr-002.jpeg" alt="Professional workspace" class="img-fluid grid-img">
                 <img src="assets/img/msr-003.jpeg" alt="Team collaboration" class="img-fluid grid-img">
               </div>
             </div>
@@ -416,7 +458,77 @@
 
       </div>
 
-    </section><!-- /Faq Section -->
+    </section>
+
+    <section id="team" class="services section">
+    
+    
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Team</h2>
+      </div><!-- End Section Title -->
+    
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+    
+        <div class="services-grid">
+          <div class="row g-4">
+    
+    
+            <!-- Team Member 1 -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="team-card text-center">
+                <div class="team-image-wrapper">
+                  <img src="assets/img/abdulaziz.jpeg" class="img-fluid" alt="Team Member">
+                </div>
+                <h4>Abdulaziz Abbas Maigoro</h4>
+                <p>Chief Executive Officer</p>
+              </div>
+            </div>
+    
+    
+            <!-- Team Member 2 -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
+              <div class="team-card text-center">
+                <div class="team-image-wrapper">
+                  <img src="assets/img/hamza.jpeg" class="img-fluid" alt="Team Member">
+                </div>
+                <h4>Hamza Abbas Hamza</h4>
+                <p>Head of Finance</p>
+              </div>
+            </div>
+    
+    
+            <!-- Team Member 3 -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="team-card text-center">
+                <div class="team-image-wrapper">
+                  <img src="assets/img/muhammad.jpeg" class="img-fluid" alt="Team Member">
+                </div>
+                <h4>Muhammad Sani Abubakar</h4>
+                <p>Head of Operations</p>
+              </div>
+            </div>
+    
+    
+            <!-- Team Member 4 -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
+              <div class="team-card text-center">
+                <div class="team-image-wrapper">
+                  <img src="assets/img/hussaini.jpeg" class="img-fluid" alt="Team Member">
+                </div>
+                <h4>Hussaini Mustapha Abdulkadir (MBDFM)</h4>
+                <p>Head of Human Resources</p>
+              </div>
+            </div>
+    
+    
+          </div>
+        </div>
+    
+      </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section light-background">
