@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Team | MGR Synergy Investment Limited</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Favicons -->
+    <link href="../assets/img/favicon.png" rel="icon">
+    <link href="../assets/img/favicon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendors/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../vendors/aos/aos.css" rel="stylesheet">
+    <link href="../vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Hero Section -->
+    <style>
+        /* Hero Background Styling */
+        .hero {
+            position: relative;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('../assets/img/hero-bg.jpg') center center / cover no-repeat;
+            color: #fff;
+            padding: 120px 0;
+            height: 100vh;
+        }
+
+
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+
+        .hero-description {
+            font-size: 1.1rem;
+            margin-top: 15px;
+            color: #e0e0e0;
+        }
+
+
+        .hero-actions .btn-primary {
+            background: #ff9900;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 30px;
+            color: #fff;
+            font-weight: 600;
+        }
+
+
+        .hero-actions .btn-outline {
+            border: 2px solid #fff;
+            padding: 12px 25px;
+            border-radius: 30px;
+            color: #fff;
+            margin-left: 10px;
+        }
+
+
+        .hero-metrics {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+
+        .metric-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px 25px;
+            border-radius: 15px;
+            backdrop-filter: blur(6px);
+        }
+
+
+        .metric-number {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .value-card {
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .value-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .value-card h3 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .team-card {
+            background: #fff;
+            padding: 25px 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+        }
+
+
+        .team-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+        }
+
+
+        .team-image-wrapper {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 15px;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+
+        .team-image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        .team-card h4 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+
+        .team-card p {
+            font-size: 14px;
+            color: #6c757d;
+        }
+    </style>
+
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div
+            class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+            <a href="/" class="logo d-flex align-items-center me-auto me-xl-0">
+                <img src="../assets/img/logo.png" alt="">
+                <!-- <h1 class="sitename">MGR Synergy LTD</h1> -->
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="../#hero" class="active">Home</a></li>
+                    <li><a href="../#about">About</a></li>
+                    <li><a href="../#core-business">Core Businesses</a></li>
+                    <li><a href="../#vision">Vision</a></li>
+                    <li><a href="../#mission">Mission</a></li>
+                    <li><a href="../#core-values">Core Values</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" href="#contact">Contact</a>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section style="padding-top: 15vh;" id="team" class="services section">
+
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Our Team</h2>
+            </div><!-- End Section Title -->
+
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+
+                <div class="services-grid">
+                    <div class="row g-4">
+
+
+                        <!-- Team Member 1 -->
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <a href='./abdulaziz-abbas-maigoro/'>
+                                <div class="team-card text-center">
+                                    <div class="team-image-wrapper">
+                                        <img src="../assets/img/abdulaziz.jpeg" class="img-fluid" alt="Team Member">
+                                    </div>
+                                    <h4>Abdulaziz Abbas Maigoro</h4>
+                                    <p>Chief Executive Officer</p>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <!-- Team Member 2 -->
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                            <a href='./hamza-abbas-hamza/'>
+                                <div class="team-card text-center">
+                                    <div class="team-image-wrapper">
+                                        <img src="../assets/img/hamza.jpeg" class="img-fluid" alt="Team Member">
+                                    </div>
+                                    <h4>Hamza Abbas Hamza</h4>
+                                    <p>Head of Finance</p>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <!-- Team Member 3 -->
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <a href='./muhammad-sani-abubakar/'>
+                                <div class="team-card text-center">
+                                    <div class="team-image-wrapper">
+                                        <img src="../assets/img/muhammad.jpeg" class="img-fluid" alt="Team Member">
+                                    </div>
+                                    <h4>Muhammad Sani Abubakar</h4>
+                                    <p>Head of Operations</p>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <!-- Team Member 4 -->
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                            <a href='./hussaini-mustapha-abdulkadir/'>
+                                <div class="team-card text-center">
+                                    <div class="team-image-wrapper">
+                                        <img src="../assets/img/hussaini.jpeg" class="img-fluid" alt="Team Member">
+                                    </div>
+                                    <h4>Hussaini Mustapha Abdulkadir (MBDFM)</h4>
+                                    <p>Head of Human Resources</p>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+
+        <div class="container">
+
+            <div class="footer-main" data-aos="fade-up" data-aos-delay="100">
+                <div class="row align-items-start">
+
+                    <div class="col-lg-5">
+                        <div class="brand-section">
+                            <a href="/" class="logo d-flex align-items-center mb-4">
+                                <img style="max-width: 70%;" src="../assets/img/logo.png" alt="">
+                            </a>
+                            <p class="brand-description">Mission, Growth, Reliability</p>
+
+                            <div class="contact-info mt-5">
+                                <div class="contact-item">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span>No D21, Abbas Plaza, IBB way Katsina, Katsina State.</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="bi bi-telephone"></i>
+                                    <span>+234(0)816-597-1959</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="bi bi-envelope"></i>
+                                    <span><a
+                                            href="mailto:mgrsynergyinvestmentltd@gmail.com">mgrsynergyinvestmentltd@gmail.com</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="footer-nav-wrapper">
+                            <div class="row">
+
+                                <div class="col-12">
+                                    <div class="nav-column">
+                                        <h6>Quick Links</h6>
+                                        <nav class="footer-nav">
+                                            <a href="../#hero">Home</a>
+                                            <a href="../#about">About</a>
+                                            <a href="../#core-business">Core Businesses</a>
+                                            <a href="../#vision">Vision</a>
+                                            <a href="../#mission">Mission</a>
+                                            <a href="../#core-values">Core Values</a>
+                                            <a href="../#contact">Contact</a>
+                                        </nav>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="bottom-content" data-aos="fade-up" data-aos-delay="300">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="copyright">
+                                <p>© <span class="sitename">MGR Synergy LTD</span>. All rights reserved.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="../vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendors/aos/aos.js"></script>
+    <script src="../vendors/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="../assets/js/main.js"></script>
+
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+        data-cf-beacon='{"version":"2024.11.0","token":"68c5ca450bae485a842ff76066d69420","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
